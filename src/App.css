@@ -1,0 +1,85 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #111827;
+  background-color: #f3f4f6;
+}
+
+body {
+  margin: 0;
+}
+.app-root {
+  display: grid;
+  grid-template-columns: 260px 1fr 380px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+.sidebar-placeholder {
+  background: #f3f4f6;
+  border-right: 1px solid #e5e7eb;
+}
+
+.role-switcher {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.role-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.role-dropdown.modern {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  font-size: 14px;
+  color: #111827;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.role-dropdown.modern:hover {
+  border-color: #9ca3af;
+  background: #ffffff;
+}
+
+.role-dropdown.modern:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+  outline: none;
+}
+
+.canvas-column {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  overflow: hidden;
+}
+
+.workflow-canvas-wrapper {
+  background: #e5e7eb;
+  width: 100%;
+  height: 100%;
+}
+
+.right-panel {
+  background: white;
+  border-left: 1px solid #e5e7eb;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
