@@ -59,7 +59,9 @@ and the app will be able to see.
 
 
 
-// Features
+
+
+// **Features**
 👤 Role Switch (Manager / Employee)
 
 A dropdown in the top-right corner lets you switch roles:
@@ -84,7 +86,7 @@ Submit either Form Data OR Upload Documents
 
 Resubmit if manager rejects
 
-// Architecture Overview
+// **Architecture Overview**
 
 src/
  ├── components/
@@ -118,7 +120,7 @@ Generates approval payload
 Handles automated email step
 
 
-// 🏗️ Design Decisions
+// 🏗️ **Design Decisions**
 1. React Flow as Graph Engine
 
 React Flow provides a stable draggable canvas, edge handling, and custom nodes—perfect for a workflow builder.
@@ -154,7 +156,7 @@ Allows simulated collaboration between manager ↔ employee in one UI
 Helps visualize real-world HR processes
 
 
-//📘 Workflow Walkthrough
+//📘 **Workflow Walkthrough**
 
 1. Manager Creates Workflow
 
@@ -210,7 +212,7 @@ Once approved, workflow continues until End node.
 
 
 
-// ✔️ Completed Functionality
+// ✔️ **Completed Functionality**
 
 Workflow graph builder (React Flow)
 
@@ -238,7 +240,8 @@ Document vs. form-based submission logic
 
 Resubmission logic on rejection
 
-// ➕ What Could Be Added With More Time
+// ➕ **What Could Be Added With More Time**
+
 🔹 1. True Backend Integration
 
 Save workflows to DB
