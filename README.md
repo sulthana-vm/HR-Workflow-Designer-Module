@@ -12,7 +12,7 @@ Option A: Run using Node + npm
 
 git clone https://github.com/sulthana-vm/HR-Workflow-Designer-Module.git
 
-cd hr-workflow-designer
+cd HR-Workflow-Designer-Module
 
 2.Install dependencies
 Note: Vite requires Node.js 20.19+ or 22.12+.
@@ -38,7 +38,7 @@ Option B: Run using Docker (no Node install needed)
 
 git clone https://github.com/sulthana-vm/HR-Workflow-Designer-Module.git
 
-cd hr-workflow-designer
+cd HR-Workflow-Designer-Module
 
 2. Build the Docker image
 
